@@ -10,14 +10,14 @@ BASE_RUNNING = ["base_thirst", "laserlikeness", "continuation", "ground_friction
 HEADERS = ["name", "team"];
 
 ## Primary files
-BATTING_FILE = open("../data/s13-batters.csv", "a")
-PITCHING_FILE = open("../data/s13-pitching.csv", "a")
-DEFENSE_FILE = open("../data/s13-defense.csv", "a")
-BASE_RUNNING_FILE = open("../data/s13-base-running.csv", "a")
-OFFENSE_FILE = open("../data/s13-offense.csv", "a")
+BATTING_FILE = open("../data/s14-batters.csv", "a")
+PITCHING_FILE = open("../data/s14-pitching.csv", "a")
+DEFENSE_FILE = open("../data/s14-defense.csv", "a")
+BASE_RUNNING_FILE = open("../data/s14-base-running.csv", "a")
+OFFENSE_FILE = open("../data/s14-offense.csv", "a")
 
 
-with open('../data/players.json') as f:
+with open('../data/players-20200314.json') as f:
   players = json.load(f)
 
 prefix = "name,team,";
